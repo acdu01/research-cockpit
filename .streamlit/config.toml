@@ -1,0 +1,13 @@
+# Light-academia theme for anyone running `streamlit run src/research_cockpit/ui/app.py`
+# directly during development. `rc ui` passes the same values as CLI flags, so
+# installed users don't need this file.
+[theme]
+base = "light"
+primaryColor = "#4A5D45"
+backgroundColor = "#F5F1E8"
+secondaryBackgroundColor = "#FBF8F1"
+textColor = "#2E2A24"
+font = "serif"
+
+[browser]
+gatherUsageStats = false
