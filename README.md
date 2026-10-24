@@ -229,16 +229,3 @@ See [the build spec](specs/research-cockpit-spec.md),
 [GitHub preparation commands](specs/github-release.md).
 The original handoff PDF is intentionally excluded from Git and distributions.
 
-## Known limits
-
-This is a personal-scale preview, with brute-force vector search and no dependency
-lockfile yet. Flashcard caching with multiple annotations needs improvement;
-external graph nodes are not automatically merged when a paper enters the library.
-Evaluation measures retrieval recall only; citation accuracy and faithfulness are
-unmeasured. Optional artwork and font binaries from the handoff are absent, so the
-UI uses its built-in ornaments and system-font fallbacks. Live API/LLM calls,
-semantic model inference, and real OCR were not exercised in the current audit.
-
-## License
-
-A project license has not yet been selected.
